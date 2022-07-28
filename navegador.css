@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box; 
+    
+    }
+h1{
+text-align: center;
+font-family: bold;
+font-weight: 900;
+font-size: 85px;
+color: gray;
+}
+
+.buscador{
+    width: 918px;
+    height: 56px;
+    border-radius: 40px;
+    padding: 0;
+    margin: 50px 0 0 230px;
+    bottom: 0;
+    right: 100px;
+    background-color: white; 
+    box-sizing: border-box;
+   
+}
+
+::placeholder{
+    
+   font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+   
+}
+
+button{
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 50px 0 0 245px;
+    border: 0ch;
+    background-color: rgb(196, 30, 30);
+    box-shadow: 0 9px #999;
+     float: left;
+}
+span{
+    background-color: transparent;
+    font-family:bolt;
+    font-size: 28px;
+}
+.facebook{
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 50px 0 0 25px;
+    border: 0ch;
+    background-color:rgb(21, 21, 216);
+    box-shadow: 0 9px #999;
+     float: left;
+}
+.facebook::span{
+    font-family:bolt;
+    font-size: 28px;
+}
+.insta{
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 50px 0 0 25px;
+    border: 0ch;
+    background-color:rgb(177, 103, 187);
+    box-shadow: 0 9px #999;
+     float: left;
+}
+.insta::span{
+    font-family:bolt;
+    font-size: 28px;
+}
+.twit{
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 50px 0 0 25px;
+    border: 0ch;
+    background-color:rgb(33, 142, 150);
+    box-shadow: 0 9px #999;
+     float: left;
+
+}
+.twit::span{
+    font-family:bolt;
+    font-size: 28px;
+}
